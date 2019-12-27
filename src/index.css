@@ -1,13 +1,86 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-color: #eee;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.account-action a {
+    color: #ccc;
+    margin-right: 30px;
+    display: inline-block;
+
+    font-size: 1.65em;
+}
+
+.account-action a:last-of-type {
+    margin-right: 0;
+}
+
+.account-action a:last-of-type img {
+    border-radius: 50%;
+    width: 55px;
+}
+
+.navbar {
+    padding: 20px 30px;
+}
+
+ul.navbar-nav li.nav-item {
+    margin-right: 35px;
+}
+
+.employees-main {
+    padding: 30px;
+}
+
+.app-bg-green {
+    background-color: #16C79E;
+}
+
+.app-green {
+    color: #16C79E;
+}
+
+.capsule {
+    border-radius: 40px;
+}
+
+.employee-table {
+
+}
+
+.employee-table tbody td {
+    padding: 20px;
+}
+
+.employee-table thead td {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.employee-table thead td {
+    font-weight: bold;
+}
+
+.employee-table tbody td {
+    background-color: white;
+    vertical-align: middle;
+}
+
+.employee-table tbody td:first-of-type {
+    border-radius: 10px 0 0 10px;
+}
+
+.employee-table tbody td:last-of-type {
+    border-radius: 0 10px 10px 0;
 }
